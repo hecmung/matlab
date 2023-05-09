@@ -12,7 +12,7 @@ for n=3:20
 end
 
 n = [0:1:19] %Vector con los 20 valores de n
-subplot (3, 1, 3)
+subplot (3, 1, 3) %Empezamos desde el indice 3 para no sobreescribir el segundo 
 stem (n(3:20), y(3:20))
 grid
 ylabel ('Salida')
